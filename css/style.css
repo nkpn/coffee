@@ -1,0 +1,125 @@
+html{
+    box-sizing: border-box;
+  }
+
+*, ::before, ::after{
+    box-sizing: inherit;
+}
+
+:root{
+    --primary-color:#415167;
+    --accent-color:#C7A17A;
+    --dark-grey:#151D28;
+    --light-grey:#EDF0F5;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+text-decoration: none;
+}
+
+ul, li, a, h1, h2, h3, p{
+    margin: 0 0;
+    padding: 0 0;
+}
+  
+h1, h2, h3, p{
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+/* TEXT STYLES */
+
+.text{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--dark-grey);
+}
+
+.name{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px; 
+    color: var(--dark-grey);
+}
+
+.container{
+    width: 1400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px auto;
+}
+
+/* HEADER */
+
+.heading{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+}
+
+h1{
+    font-size: 54px;
+    line-height: 70px;
+}
+
+.your-coffee{
+    width: 470px;
+}
+
+/*.main-image{
+    background-image: linear-gradient(
+    to right, rgba(21, 29, 40, 1), rgba(21, 29, 40, 1)),
+    url(../images/main-picture-header.jpg);
+    width: 757px;
+    height: 200px;
+    background-size:cover;
+    background-position: center;
+}*/
+
+.header-image{
+
+}
+
+
+
+/* COFFEE BUILD YOUR BASE */
+
+.coffee-base{
+    background-color: #F9FBFF;
+    padding-top: 90px;
+    padding-bottom: 130px;
+}
+
+.card-list{
+    display: flex;
+}
+
+.card-item{
+    width: 225px;
+}
+
+.master-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 80px;
+    height: 80px;
+    fill: 
+}
+
+.icon{
+    justify-content: center;
+    align-items: center;
+}
